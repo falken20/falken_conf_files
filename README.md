@@ -1,4 +1,4 @@
-![](https://richionline-portfolio.nw.r.appspot.com/static/assets/logo.png)
+![](https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png)
 
 ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg)
 
