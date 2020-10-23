@@ -11,3 +11,7 @@ Different configure files to copy in the projects
 - .gcloudignore -> Default config for Files and folders that it shouldn't upload to Google Cloud Platform
 - .gitignore -> Default config about .gitignore for my projects
 - config_fk.py -> Python config file about several personal consts
+- error.py -> Python example to manage a commun error message
+
+- falken_logo.ico
+- falken_logo.png
