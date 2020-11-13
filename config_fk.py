@@ -1,5 +1,11 @@
 # by Richi Rod AKA @richionline / falken20
 
+"""
+# Access to the file:
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config_fk import SETUP_DATA
+"""
+
 __title__ = 'Richi Rod Portfolio'
 __version__ = '1.0.0'
 __author__ = 'Falken'
