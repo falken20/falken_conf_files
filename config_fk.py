@@ -2,6 +2,7 @@
 
 """
 # Access to the file:
+import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config_fk import SETUP_DATA
 """
