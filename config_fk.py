@@ -30,3 +30,16 @@ SETUP_DATA = {
     'copyrigth': __copyright__,
     'features': __features__,
 }
+
+# .env file
+"""
+SECRET_KEY=
+ENV_PRO=N
+LOG_LEVEL=INFO
+ID_LOG=ROD->
+SQLITE=N
+ALLOWED_HOSTS=
+
+# Heroku
+DJANGO_SETTINGS_MODULE=covid19web.settings
+"""
