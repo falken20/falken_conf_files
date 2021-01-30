@@ -13,6 +13,8 @@ try:
   
 except Exception as err:
     logging.error(f'Line: {err.__traceback__.tb_lineno} \n'
-                  f'Type: {type(err).__name__} \n'
-                  f'Arguments:\n {err.args}')
+                  f'File: {err.__traceback__.tb_frame.f_code.co_filename} \n'
+                  f'Type Error: {type(err).__name__} \n'
+                  f'Arguments:\n {err.args} \n'
+                  f'Error:\n {format(err)}')
     raise
