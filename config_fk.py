@@ -5,6 +5,9 @@
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config_fk import SETUP_DATA
+
+# Load env file
+load_dotenv(find_dotenv())
 """
 
 __title__ = 'Richi Rod Portfolio'
