@@ -1,3 +1,7 @@
+# Print logs using colors
+from rich import print
+print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:", locals())
+
 # Go to the parent directory
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
