@@ -1,5 +1,7 @@
 ![](https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png)
 
+https://img.shields.io/twitter/follow/richionline?style=social
+
 ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg)
 
 
