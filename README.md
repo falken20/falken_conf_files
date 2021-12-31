@@ -28,8 +28,6 @@ Different configure files to copy in the projects
 - falken_logo.ico
 - falken_logo.png
 
-# Ejemplo README.md
-
 ## Setup
 
 Compatible with Python 3.6+.
