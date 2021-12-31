@@ -1,8 +1,13 @@
 ![](https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png)
 
-https://img.shields.io/twitter/follow/richionline?style=social
+### Shields (https://shields.io/)
 
-![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich/10.11.0)](https://www.python.org) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)
+
+![GitHub Top languaje](https://img.shields.io/github/languages/top/falken20/falken_conf_files) ![GitHub language count](https://img.shields.io/github/languages/count/falken20/falken_conf_files) [![Richi web](https://img.shields.io/badge/web-richionline-blue)](https://richionline-portfolio.nw.r.appspot.com) [![Twitter](https://img.shields.io/twitter/follow/richionline?style=social)](https://twitter.com/richionline)
+
+
+![Tag](https://img.shields.io/github/tag/pandao/editor.md.svg) ![Release](https://img.shields.io/github/release/pandao/editor.md.svg)
 
 
 ### falken_conf_files
