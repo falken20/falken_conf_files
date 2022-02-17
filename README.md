@@ -28,7 +28,9 @@ Different configure files to copy in the projects
 - falken_logo.ico
 - falken_logo.png
 
-## Setup
+---
+
+##### Setup
 
 Compatible with Python 3.6+.
 
@@ -36,9 +38,25 @@ Compatible with Python 3.6+.
 pip install -r requirements.txt
 ```
 
-## Running the Server
+##### Running the Server
 
 ```bash
 cd falken_chat
 python main.py
+```
+
+##### Setup tests
+
+```bash
+pip install -r requirements-tests.txt
+```
+
+##### Running the tests with pytest and coverage
+
+```bash
+./scripts/coverage.sh
+```
+or
+```bash
+coverage run -m pytest -v && coverage html --omit=*/venv/*,*/test/*
 ```
