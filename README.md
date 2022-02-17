@@ -1,4 +1,6 @@
-[![Personal web](https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png)](https://richionline-portfolio.nw.r.appspot.com)
+<div align="center">
+  
+  [![Personal web](https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png)](https://richionline-portfolio.nw.r.appspot.com)
 ### Shields (https://shields.io/)
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue) 
@@ -14,6 +16,7 @@
 
 [![Richi web](https://img.shields.io/badge/web-richionline-blue)](https://richionline-portfolio.nw.r.appspot.com) 
 [![Twitter](https://img.shields.io/twitter/follow/richionline?style=social)](https://twitter.com/richionline)
+</div>
 
 ### falken_conf_files
 Different configure files to copy in the projects
