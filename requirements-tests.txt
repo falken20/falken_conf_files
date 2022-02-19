@@ -1,0 +1,4 @@
+coverage
+pytest
+mock
+flake8 # Linter checks, like pytest 
