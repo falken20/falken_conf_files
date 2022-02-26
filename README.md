@@ -34,13 +34,12 @@ Different configure files to copy in the projects
 
 ##### Setup
 
-Compatible with Python 3.6+.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-##### Running the Server
+##### Running the app
 
 ```bash
 cd falken_chat
@@ -56,9 +55,9 @@ pip install -r requirements-tests.txt
 ##### Running the tests with pytest and coverage
 
 ```bash
-./scripts/coverage.sh
+./scripts/ccheck_project.sh
 ```
 or
 ```bash
-coverage run -m pytest -v && coverage html --omit=*/venv/*,*/test/*
+coverage run -m pytest -v && coverage html --omit=*/venv/*,*/tests/*
 ```
