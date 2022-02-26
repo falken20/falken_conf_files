@@ -1,2 +1,3 @@
+# App
 rich
 python-dotenv

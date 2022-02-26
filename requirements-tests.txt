@@ -1,5 +1,7 @@
+# App
 rich
 python-dotenv
+# Tests
 coverage
 pytest
 mock
