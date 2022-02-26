@@ -11,6 +11,7 @@
 
 Optionals:
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich/10.11.0)](https://www.python.org) 
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/falken20/primazon)
 [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)
 ![Tag](https://img.shields.io/badge/tag-1.0.0-blue) 
 ![Release](https://img.shields.io/badge/release-1.0.0-blue)
