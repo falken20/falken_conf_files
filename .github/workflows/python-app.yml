@@ -5,9 +5,9 @@ name: Python application Tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ NOMBRE_RAMA(master) ]
   pull_request:
-    branches: [ master ]
+    branches: [ NOMBRE_RAMA(master) ]
 
 jobs:
   build:
