@@ -1,6 +1,6 @@
 <div align="center">
-<img src="search_extensions.png" alt="drawing" width="600"/>
-<a href="https://richionline-portfolio.nw.r.appspot.com"><img src="https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png" width=50 alt="Personal Portfolio web"></a>
+<img src="logo_app.png" alt="drawing" width="400"/>
+<a href="https://richionline-portfolio.nw.r.appspot.com"><img src="https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png" width=40 alt="Personal Portfolio web"></a>
 
 ### Shields (https://shields.io/)
 
