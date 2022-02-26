@@ -1,6 +1,6 @@
 <div align="center">
 <!-- Para logo se puede usar https://studio.tailorbrands.com/-->
-<img src="logo_app.png" alt="drawing" width="400"/>
+<img src="./docs/img/logo_app.png" alt="drawing" width="400"/>
 <a href="https://richionline-portfolio.nw.r.appspot.com"><img src="https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png" width=40 alt="Personal Portfolio web"></a>
 
 ### Shields (https://shields.io/)
@@ -19,6 +19,7 @@ Optionals:
 ### falken_conf_files
 Different configure files to copy in the projects
 
+- .github/workflows/python-app.yml -> CICD with GitHub
 - .env -> Several environment vars
 - .flaskenv -> Several Flask environment vars
 - .gcloudignore -> Default config for Files and folders that it shouldn't upload to Google Cloud Platform
