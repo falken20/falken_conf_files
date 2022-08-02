@@ -30,6 +30,7 @@ Different configure files to copy in the projects
 - .gitignore -> Default config about .gitignore for my projects
 - config_fk.py -> Python config file about several personal consts
 - error.py -> Python example to manage a commun error message
+- logger.py (usually in ./src): For managing console logs
 
 - falken_logo.ico
 - falken_logo.png
