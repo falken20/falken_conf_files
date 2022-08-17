@@ -37,6 +37,11 @@ Different configure files to copy in the projects
 - falken_logo.ico
 - falken_logo.png
 
+##### Deploy
+```bash
+Explain Heroku, GCP, etc. deploy method
+```
+
 ##### Setup
 
 
