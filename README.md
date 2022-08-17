@@ -20,7 +20,9 @@ Optionals:
 ![Release](https://img.shields.io/badge/release-1.0.0-blue)
 </div>
 
+---
 ### falken_conf_files
+
 Different configure files to copy in the projects
 
 - .github/workflows/python-app.yml -> CICD with GitHub
