@@ -37,8 +37,6 @@ Different configure files to copy in the projects
 - falken_logo.ico
 - falken_logo.png
 
----
-
 ##### Setup
 
 
@@ -68,3 +66,10 @@ or
 ```bash
 coverage run -m pytest -v && coverage html --omit=*/venv/*,*/tests/*
 ```
+---
+
+##### Versions
+
+1.2.0 New Log model integrated
+
+1.1.0 Adaptations to ORM SQLAlchemy
