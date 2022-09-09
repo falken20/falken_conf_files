@@ -1,6 +1,7 @@
 <div align="center">
   
 ### Logo maker (https://studio.tailorbrands.com/)
+### Icons (https://icons8.com/)
   
 <!-- Para logo se puede usar https://studio.tailorbrands.com/-->
 <img src="./docs/img/logo_app.png" alt="drawing" width="400"/>
