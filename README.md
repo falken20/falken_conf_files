@@ -44,27 +44,22 @@ Explain Heroku, GCP, etc. deploy method
 ```
 
 ##### Setup
-
-
 ```bash
 pip install -r requirements.txt
 ```
 
 ##### Running the app
-
 ```bash
 cd falken_chat
 python main.py
 ```
 
 ##### Setup tests
-
 ```bash
 pip install -r requirements-tests.txt
 ```
 
 ##### Running the tests with pytest and coverage
-
 ```bash
 ./scripts/ccheck_project.sh
 ```
@@ -92,7 +87,5 @@ ACCESS_TOKEN_SECRET=XXXXXXXXXXXX
 ---
 
 ##### Versions
-
 1.2.0 New Log model integrated
-
 1.1.0 Adaptations to ORM SQLAlchemy
