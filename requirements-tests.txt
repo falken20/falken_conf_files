@@ -1,5 +1,5 @@
 coverage
 pytest
-mock
 flake8 # Linter checks, like pytest 
 autopep8
+mock
