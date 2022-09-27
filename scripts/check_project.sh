@@ -10,7 +10,8 @@ flake8 src tests --count --exit-zero --max-complexity=10 --max-line-length=127 -
 
 # Unit test and coverage
 echo "***** Unit Test *****"
-coverage run -m pytest -v 
+# Param -s shows all print statement, not only when it fails
+coverage run -m pytest -v -s
 echo "***** Coverage tests *****"
 coverage report --omit="*/test/*,*/venv/*"
 
