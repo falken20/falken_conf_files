@@ -2,6 +2,7 @@
   
 ### Logo maker (https://studio.tailorbrands.com/)
 ### Icons (https://icons8.com/)
+### Converto PNG to ICO (https://www.img2go.com/es/convertir/png-a-ico)
   
 <!-- Para logo se puede usar https://studio.tailorbrands.com/-->
 <img src="./docs/img/logo_app.png" alt="drawing" width="400"/>
