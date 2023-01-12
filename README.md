@@ -6,7 +6,7 @@
   
 <!-- Para logo se puede usar https://studio.tailorbrands.com/-->
 <img src="./docs/img/logo_app.png" alt="drawing" width="400"/>
-<a href="https://richionline-portfolio.nw.r.appspot.com"><img src="https://falken-home.herokuapp.com/static/home_project/img/falken_logo.png" width=40 alt="Personal Portfolio web"></a>
+<a href="https://richionline-portfolio.nw.r.appspot.com"><img src="https://richionline-portfolio.nw.r.appspot.com/static/assets/falken_logo.ico" width=40 alt="Personal Portfolio web"></a>
 
 ### Shields (https://shields.io/)
 
