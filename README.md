@@ -1,7 +1,8 @@
 <div align="center">
   
 ### Logo maker (https://studio.tailorbrands.com/)
-### Icons (https://icons8.com/)
+### Icons (https://icons8.com/) 
+### Remove Background (https://www.remove.bg/es)
 ### Converto PNG to ICO (https://www.img2go.com/es/convertir/png-a-ico)
   
 <!-- Para logo se puede usar https://studio.tailorbrands.com/-->
