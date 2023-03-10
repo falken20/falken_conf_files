@@ -2,6 +2,7 @@
   
 ### Logo maker (https://studio.tailorbrands.com/)
 ### Icons (https://icons8.com/) 
+### Resize and change format images (https://www.freeconvert.com/es/ico-to-png)
 ### Remove Background (https://www.remove.bg/es)
 ### Converto PNG to ICO (https://www.img2go.com/es/convertir/png-a-ico)
   
