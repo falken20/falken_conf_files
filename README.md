@@ -1,6 +1,6 @@
 <div align="center">
   
-### Logo maker (https://studio.tailorbrands.com/)
+### Logo maker (https://studio.tailorbrands.com/) (https://looka.com/)
 ### Change format images and resize (https://www.img2go.com/es/convertir/png-a-ico)
 ### Icons (https://icons8.com/) 
 ### Remove Background (https://www.remove.bg/es)
