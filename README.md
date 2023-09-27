@@ -4,6 +4,7 @@
 ### Change format images and resize (https://www.img2go.com/es/convertir/png-a-ico)
 ### Icons (https://icons8.com/) 
 ### Remove Background (https://www.remove.bg/es)
+### Backgrounds (https://www.freepik.com/search?format=search&query=app%20background)
   
 <!-- Para logo se puede usar https://studio.tailorbrands.com/-->
 <img src="./docs/img/logo_app.png" alt="drawing" width="400"/>
