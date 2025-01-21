@@ -1,5 +1,5 @@
 # by Richi Rod AKA @richionline / falken20
-# ./falken_teleworking/logger.py
+# ./falken_plants/logger.py
 
 import sys
 import os
@@ -7,6 +7,9 @@ from rich.console import Console
 from rich.style import Style
 from datetime import datetime
 from dotenv import load_dotenv, find_dotenv
+import pprint
+
+print("Loading logger.py")
 
 # Load .env file
 load_dotenv(find_dotenv())
@@ -21,10 +24,19 @@ style_ERROR = Style(color="red", bgcolor="white", bold=True)
 
 # Min log level to print
 LEVEL_LOG = os.getenv('LEVEL_LOG', "DEBUG, INFO, WARNING, ERROR")
-console.print(f"LOG LEVEL: {LEVEL_LOG}", style="yellow")
+# console.print(f"LOG LEVEL: {LEVEL_LOG}", style="yellow")
 
 
 class Log():
+    @staticmethod
+    def info_dict(dict_obj: dict = None, level_log: str = "INFO"):
+        try:
+            if level_log in LEVEL_LOG.upper():
+                pprint.pprint(dict_obj)
+
+        except Exception as err:
+            Log.error("Error to print log", err, sys)
+
     @staticmethod
     def debug(message, style=style_DEBUG):
         try:
@@ -62,7 +74,7 @@ class Log():
             Log.error("Error to print log", err, sys)
 
     @staticmethod
-    def error(message, err, sys=sys, style=style_ERROR):
+    def error(message, err, sys, style=style_ERROR):
         """
         Print error in terminal
         Args:
@@ -83,5 +95,5 @@ class Log():
                               f"\nError: {format(err)}",
                               style=style)
 
-        except Exception as err:
-            Log.error("Error to print log", err, sys)
+        except Exception:
+            print("Error to print log")
