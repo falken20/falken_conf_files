@@ -1,4 +1,5 @@
 # by Richi Rod AKA @richionline / falken20
+# ./falken_plants/logger.py
 
 import sys
 import os
@@ -6,6 +7,9 @@ from rich.console import Console
 from rich.style import Style
 from datetime import datetime
 from dotenv import load_dotenv, find_dotenv
+import pprint
+
+print("Loading logger.py")
 
 # Load .env file
 load_dotenv(find_dotenv())
@@ -13,7 +17,7 @@ load_dotenv(find_dotenv())
 # Create console object for logs
 console = Console()
 
-style_DEBUG = Style(color="cyan")  # style_debug = "red bold"
+style_DEBUG = Style(color="white", bgcolor="cyan")  # style_debug = "red bold"
 style_INFO = Style(color="green")
 style_WARNING = Style(color="orange3", bold=True)
 style_ERROR = Style(color="red", bgcolor="white", bold=True)
@@ -25,13 +29,22 @@ LEVEL_LOG = os.getenv('LEVEL_LOG', "DEBUG, INFO, WARNING, ERROR")
 
 class Log():
     @staticmethod
+    def info_dict(dict_obj: dict = None, level_log: str = "INFO"):
+        try:
+            if level_log in LEVEL_LOG.upper():
+                pprint.pprint(dict_obj)
+
+        except Exception as err:
+            Log.error("Error to print log", err, sys)
+
+    @staticmethod
     def debug(message, style=style_DEBUG):
         try:
             time = datetime.now().strftime("%Y/%m/%d %H:%M:%S")
             level = Log.debug.__name__.upper()
 
             if level in LEVEL_LOG.upper():
-                console.print(time, level, message, style=style)
+                console.print(time, "🟨", level, message, style=style)
 
         except Exception as err:
             Log.error("Error to print log", err, sys)
@@ -43,7 +56,7 @@ class Log():
             level = Log.info.__name__.upper()
 
             if level in LEVEL_LOG.upper():
-                console.print(time, level, message, style=style)
+                console.print(time, "✅", level, message, style=style)
 
         except Exception as err:
             Log.error("Error to print log", err, sys)
@@ -55,7 +68,7 @@ class Log():
             level = Log.warning.__name__.upper()
 
             if level in LEVEL_LOG.upper():
-                console.print(time, level, message, style=style)
+                console.print(time, "🟧", level, message, style=style)
 
         except Exception as err:
             Log.error("Error to print log", err, sys)
@@ -75,12 +88,12 @@ class Log():
 
             if level in LEVEL_LOG.upper():
                 console.rule("ERROR")
-                console.print(time, level, message,
+                console.print(time, "🟥", level, message,
                               f"\nLine: {sys.exc_info()[2].tb_lineno} {type(err).__name__} ",
                               f"\nMethod: {sys.exc_info()[2].tb_frame.f_code.co_name} ",
                               f"\nFile: {sys.exc_info()[2].tb_frame.f_code.co_filename} ",
                               f"\nError: {format(err)}",
                               style=style)
 
-        except Exception as err:
-            Log.error("Error to print log", err, sys)
+        except Exception:
+            print("Error to print log")
