@@ -5,6 +5,7 @@
 ### Icons (https://icons8.com/) 
 ### Remove Background (https://www.remove.bg/es)
 ### Backgrounds (https://www.freepik.com/search?format=search&query=app%20background)(https://unsplash.com/s/photos/background-drink?license=free&orientation=portrait)
+### Generar imagenes transparentes de texto ([https://www.freepik.com/search?format=search&query=app%20background)(https://unsplash.com/s/photos/background-drink?license=free&orientation=portrait](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html))
   
 <!-- Para logo se puede usar https://studio.tailorbrands.com/-->
 <img src="./docs/img/logo_app.png" alt="drawing" width="400"/>
